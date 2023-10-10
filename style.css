@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.container{
+  border: none;
+}
+.Players{
+width: 20vw;
+height: 100vh;
+background-color: rgb(247, 223, 11);
+float: right;
+}
+.Players h3{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman';
+    padding: 20px 0px;
+
+}
+.team{
+    width: 80vw;
+    height: 100vh;
+    background-color: rgb(248, 246, 193);
+    
+}
+.team h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman';
+    padding-top: 20px;
+    
+}
+.name{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    border-bottom: .5px solid lightcyan ;
+    border-radius: 10px;
+}
+.teamnames{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 30px; */
+
+}
+.teamnames1{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 30px; */
+}
+.teamname1 {
+    width: 450px;
+    height: 250px;
+    background-color: rgb(240, 155, 101);
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+#first{
+    width: 450px;
+    height: 250px;
+    background-color: rgb(240, 155, 101);
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+.teamname2{
+    width: 450px;
+    height: 250px;
+    background-color: rgb(233, 212, 18);
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.teamname3{
+    width: 450px;
+    height: 250px;
+    background-color: #f397c7;
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+.teamname4{
+    width: 450px;
+    height: 250px;
+    background-color: #94d4ef;
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.Rupees{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+
+
+}
+#Rs1{
+    padding-left: 30px;
+    padding-right:30vw;
+    font-size: 25px;
+ 
+}
+
+/* .Rupees1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}*/
+#Rs2{
+    padding-left: 30px;
+    padding-right:30vw;
+    font-size: 25px;
+ 
+} 
+#Rs3{
+    padding-left: 30px;
+    padding-right:30vw;
+    font-size: 25px;
+ 
+} 
+#Rs4{
+    padding-left: 30px;
+    padding-right:30vw;
+    font-size: 25px;
+ 
+} 
+.draggable{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    border-bottom: .5px solid lightcyan ;
+    border-radius: 10px;
+    cursor: move;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Players</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="Players">
+            <h3>Pool of Players</h3>
+            <div class="draggable" draggable="true" ondragstart="drag(event)" id="palyer1">Virat Kohli</div>
+            <div class="draggable" draggable="true" ondragstart="drag(event)" id="palyer2">Mohammad Siraj</div>
+            <div class="draggable" draggable="true" ondragstart="drag(event)" id="palyer3">Glenn Maxwell</div>
+            <div class="draggable" draggable="true" ondragstart="drag(event)" id="palyer4">Faf Du Plessis</div>
+            <div class="draggable" draggable="true" ondragstart="drag(event)" id="csk">Harshal Patel</div>
+            <div class="draggable" draggable="true" ondragstart="drag(event)" id="csk">Wanindu </div>
+            <div class="draggable" draggable="true" ondragstart="drag(event)" id="drag">Karthik </div>
+            <div class="draggable" draggable="true" ondragstart="drag(event)" id="drag1">Shahbaz Ahmed</div>
+            <div class="draggable" draggable="true" ondragstart="drag(event)" id="drag1">Luvnith</div>
+            <div class="draggable" draggable="true" ondragstart="drag(event)" id="drag1">Sneeshwar</div>
+            <div class="draggable" draggable="true" ondragstart="drag(event)" id="drag1">Siddharth </div>
+        </div>
+        <div class="team">
+            <h2>Indian Premier League [IPL] Teams</h2>
+            <div class="Rupees">
+                <div id="Rs1">100000</div>
+                 <div id="Rs2">100000</div>
+            </div>
+            <div class="teamnames">
+                
+            <div id="rcb" ondrop="drop(event)" ondragover="allowDrop(event)" class="teamname1" >Royal Challengers Bangalore
+               
+            </div>
+           
+            <div id="csk" ondrop="drop(event)" ondragover="allowDrop(event)"
+            class="teamname2">Chennai Super Kings</div>
+        </div>
+        <div class="Rupees">
+            <p id="Rs3">100000</p>
+            <p id="Rs4">100000</p>
+        </div>
+        <div class="teamnames1">
+            <div id="rr" ondrop="drop(event)" ondragover="allowDrop(event)" class="teamname3">Rajastan Royals</div>
+           
+            <div id="mi" ondrop="drop(event)" ondragover="allowDrop(event)"class="teamname4">Mumbai Indians</div>
+        </div>
+        </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+   
+</body>
+</html>
